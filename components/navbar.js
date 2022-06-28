@@ -16,10 +16,6 @@ const navigation = [
     page: "About",
     link: "/about",
   },
-  {
-    page: "Blog",
-    link: "/",
-  },
 ];
 export default function Navbar() {
   const [navbarOpen, setNavBarOpen] = useState(false);
